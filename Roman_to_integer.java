@@ -46,7 +46,7 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 */
 import java.util.HashMap;
 
-public class Solution
+public class Roman_to_integer
 {
  public static void main(String[] args) {
      romanToInt("XLVIII");

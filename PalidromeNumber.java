@@ -29,7 +29,7 @@ Constraints:
 
 -231 <= x <= 231 - 1
 */
-public class Palidrome_number {
+public class PalidromeNumber {
     public static void main(String[] args) 
     {
         

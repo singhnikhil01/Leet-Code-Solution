@@ -40,10 +40,6 @@ public class Power {
            if (x == 1) return 1;
            if (x == -1)
            {
-               if(n < 0 ) 
-               {
-                int sign =-1;
-               }
                n = Math.abs(n);
                if(n%2==0)
                {
@@ -54,7 +50,7 @@ public class Power {
             
            }
             
-           if (n==1) return x ;
+           if (n == 1) return x ;
            if(n <= -2147483648 && (x !=1 || x !=-1) ){return 0;}
 
             
